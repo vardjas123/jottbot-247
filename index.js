@@ -168,4 +168,4 @@ bot.on('message', msg => {
       }
   });
 
-bot.login("MzczNTcwODg1MzM0MDczMzQ0.DNaMLw.NXoq_KgvElTPrOx9qGPhpog6ug8");
+bot.login(process.env.BOT_TOKEN);
